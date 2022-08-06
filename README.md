@@ -52,9 +52,9 @@ This repository was built using the folowing technologies:
    ```
 2. Go to the directory installed:
 
-```
-..cd cypress
-```
+   ```
+   ..cd cypress
+   ```
 
 3. Install NPM packages
    ```sh
