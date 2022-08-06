@@ -43,30 +43,20 @@ This repository was built using the folowing technologies:
    ```sh
    git clone https://github.com/USERNAME/luxoftTest.git
    ```
-2. Install NPM packages
+2. Go to the directory installed:
+
+   ```
+   ..cd cypress
+   ```
+
+3. Install NPM packages
    ```sh
    npm install
    ```
-3. Run Cypress
+4. Run Cypress
    ```sh
    npm start
    ```
-
----
-
-## **Setup**
-
-- Go to the directory installed:
-
-  ```
-  ..cd cypress
-  ```
-
-- To install all the necessary dependencies:
-
-  ```
-   npm install
-  ```
 
 ---
 
