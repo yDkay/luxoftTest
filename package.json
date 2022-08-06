@@ -1,0 +1,19 @@
+{
+  "name": "cyproj",
+  "version": "1.0.0",
+  "description": "Luxoft Cypress Test",
+  "main": "index.js",
+  "scripts": {
+    "startOpen": "cypress open",
+    "startRun": "cypress run",
+    "cy:RunLuxoftChrome": "cypress run --browser chrome --spec cypress/e2e/luxoft.cy.js",
+    "cy:RunLuxoftElectron": "cypress run --browser electron --spec cypress/e2e/luxoft.cy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caio Consoli",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.4.0",
+    "typescript": "^4.7.4"
+  }
+}
