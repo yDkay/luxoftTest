@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": [
+    "**/*.ts",
+    "cypress/support/commands.ts",
+    "/home/caio/qaLearn/luxoft/cyProj/cypress/support/commands.ts"
+  ]
+}
